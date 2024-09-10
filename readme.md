@@ -1,6 +1,8 @@
 # Blog Web Page
 
-This project is a product listing page built with vanilla JavaScript. It fetches product data from [Fake Store API](https://fakestoreapi.com/products/) and displays them in a product card layout. When the user clicks on a specific product, they are redirected to a product details page with more information about the selected product.
+This is a simple blog web page built using Node.js, Express.js, and MongoDB. It allows users to register for an account, log in, and manage blog posts. Registered users can create new posts, view their own and others' posts, and upload images with each post. The blog features user authentication for secure access, with passwords securely stored using hashing. Images uploaded by users are handled using Multer, and MongoDB is used as the database to store user data and blog posts.
+
+The goal of this project is to provide a functional platform where users can share their thoughts and ideas through blog posts.
 
 ## Features
 
@@ -49,3 +51,10 @@ npm start
 - Register an account.
 - Login to post or view posts.
 - Upload images when creating a post.
+
+### samples:
+
+![Home](md/1.png)
+![Login](md/2.png)
+![Post](md/3.png)
+![Posted](md/4.png)
