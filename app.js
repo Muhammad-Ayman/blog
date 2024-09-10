@@ -52,7 +52,7 @@ app.post(
 );
 app.get("/posts/new", authMiddleware, newPostCont);
 app.get("/post/:id", getPostCont);
-app.use("/posts/store", validateMiddleWare);
+//app.use("/posts/store", validateMiddleWare);
 app.post("/posts/store", authMiddleware, storePostCont);
 app.use((req, res) => res.render("notfound"));
-app.listen(3000, () => console.log("Server is running on port 3000"));
+app.listen(8080, () => console.log("Server is running on port 3000"));
