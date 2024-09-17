@@ -19,7 +19,7 @@ The goal of this project is to provide a functional platform where users can sha
 - <h3>Mongoose</h3>: Database ORM for MongoDB
 - <h3>Multer</h3>: Image Upload Handling
 - <h3>Express.js</h3>: Web Framework
-- <h3>EJS/Pug/Handlebars</h3>: Templating Engine (whichever you used)
+- <h3>EJS</h3>: Templating Engine
 
 ## How to Run
 
